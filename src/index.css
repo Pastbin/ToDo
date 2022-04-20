@@ -1,0 +1,24 @@
+*,
+::after,
+::before {
+  --adaptive: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #ccc;
+  min-height: 100vh;
+}
+
+:root{
+  --screen-res: "768-1920";
+}
+
+.main{
+  display: flex;
+}

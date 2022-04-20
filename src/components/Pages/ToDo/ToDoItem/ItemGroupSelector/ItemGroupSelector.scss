@@ -1,0 +1,30 @@
+.item__groups {
+  display: inline-block;
+  width: 130px;
+  margin: 0 15px;
+  border: black solid 1px;
+  border-radius: 5px;
+  font-size: 0;
+  cursor: default;
+  margin-bottom: 5px;
+
+  option {
+    width: 100%;
+    background: black;
+    color: #ccc;
+  }
+
+  select{
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+
+    &:focus{
+      box-shadow: 0 0 5px 3px white;
+    }
+  }
+}

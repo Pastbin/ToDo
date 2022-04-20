@@ -1,0 +1,44 @@
+.item {
+  height: 37px;
+  font-size: 22px;
+  display: flex;
+  align-items: flex-end;
+  width: 760px;
+  position: relative;
+
+  &__task {
+    text-align: left;
+    width: calc(50% - 80px);
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    cursor: default;
+    padding-bottom: 3px;
+    position: relative;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    background: #ccc;
+    box-shadow: 2px 2px 5px 1px white;
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+.flight-end {
+  transition: none;
+  transform: none;
+}
+
+.flight {
+  transition: transform 0.3s;
+  transform: none;
+}
+
+.flight-start {
+  transform: translateX(-2000px);
+}

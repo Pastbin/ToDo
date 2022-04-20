@@ -1,0 +1,19 @@
+.item__date {
+  width: calc(50% - 80px);
+  text-align: right;
+  display: inline-block;
+  border: none;
+  padding-bottom: 3px;
+  cursor: default;
+
+  &-input {
+    font-size: 22px;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+
+  .expired{
+    color: red;
+  }
+}

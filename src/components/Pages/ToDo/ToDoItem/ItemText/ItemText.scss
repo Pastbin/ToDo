@@ -1,0 +1,16 @@
+.task-completed {
+  text-decoration: line-through;
+}
+
+.item__task-text {
+  flex-grow: 1;
+  position: relative;
+  font-size: 20px;
+  background: transparent;
+  outline: none;
+  border: none;
+
+  &::selection{
+    background: #888;
+  }
+}

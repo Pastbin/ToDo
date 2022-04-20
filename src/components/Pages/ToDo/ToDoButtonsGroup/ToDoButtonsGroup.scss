@@ -1,0 +1,61 @@
+
+.row-btn,
+{
+  display: flex;
+  justify-content: space-between;
+  cursor: default;
+}
+
+
+.row-btn__button {
+  width: 27%;
+  position: relative;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  background: #aaa;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px gray;
+  cursor: pointer;
+  border: none;
+  vertical-align: middle;
+  font-size: 18px;
+
+  &:hover {
+    background: #999;
+    color: white;
+  }
+
+
+  input{
+    background: inherit;
+    border: none;
+    font-size: 18px;
+    display: inline-block;
+    resize: none;
+    width: 60%;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+}
+
+.button {
+  &__svg {
+    font-size: 0;
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+
+    &:hover {
+      svg {
+        filter: invert(1);
+      }
+    }
+  }
+
+  &__text {
+    display: inline-block;
+  }
+
+}
